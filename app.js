@@ -10,3 +10,9 @@ app.use(session({
     resave: false,
     saveUninitialized: true
 }));
+
+var conversation = new watsonConvo({
+  username: 'addYourUsername',
+  password: 'addYourPassword',
+  version_date: watsonConvo.VERSION_DATE_2017_02_03
+});
