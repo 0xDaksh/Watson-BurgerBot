@@ -1,0 +1,19 @@
+{
+  "name": "burgerBot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Daksh Miglani <hello@dak.sh> (https://dak.sh)",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.15.2",
+    "express-session": "^1.15.1",
+    "http": "0.0.0",
+    "socket.io": "^1.7.3",
+    "watson-developer-cloud": "^2.27.1"
+  }
+}
