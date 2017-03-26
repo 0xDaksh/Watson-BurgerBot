@@ -17,5 +17,12 @@ I created this bot to learn more about burgers and IBM Watson In General and It 
 
 2. Please change `'addYourWorkspaceId'` at line 34.
 
-3. Run it using - 
-      npm start
+3. Install Node_Modules -
+
+            npm install
+
+4. Run the Server - 
+
+            npm start
+            
+5. Use it at - localhost:3000 or add a process.env.PORT     
