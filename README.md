@@ -1,5 +1,10 @@
 # Watson-BurgerBot
+[![npm](https://img.shields.io/npm/l/express.svg?style=flat-square)](https://github.com/Dakshster/Url-Shortener/blob/master/LICENSE)
+[![steam](https://img.shields.io/badge/steam-donate-green.svg?style=flat-square)](http://gg.gg/dmtrade)
+
 A Bot through which you can order Burger using IBM Watson AI
+
+Licensed Under MIT | (c) to Daksh Miglani (https://dak.sh | @Dakshster)
 
 I created this bot to learn more about burgers and IBM Watson In General and It turns out That I'm in love with IBM Watson!
 
