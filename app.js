@@ -16,3 +16,32 @@ var conversation = new watsonConvo({
   password: 'addYourPassword',
   version_date: watsonConvo.VERSION_DATE_2017_02_03
 });
+
+app.get('/', (req, res) => {
+  if(req.session && req.session.context) {
+      res.sendFile(__dirname + '/index.html');
+  } else {
+    req.session.context = Math.random().toString(36).substr(2, 5);
+    res.sendFile(__dirname + '/index.html');
+  }
+});
+
+io.on('connect', function(socket) {
+      console.log('client-connected');
+      socket.on('input', function(res) {
+          conversation.message({
+            input: {text: res.text},
+            workspace_id: `addYourWorkspaceId`
+          }, function(err, wRes) {
+              if(err) {
+                socket.emit('error', {
+                  error: err
+                });
+              } else {
+                socket.emit('response', {
+                  output: wRes
+                });
+              }
+          })
+      });
+});
