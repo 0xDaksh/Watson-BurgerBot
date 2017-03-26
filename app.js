@@ -4,3 +4,9 @@ var app = express();
 var server = require('http').Server(app);
 var io = require('socket.io')(server);
 var session = require('express-session');
+
+app.use(session({
+    secret: 'G Fckin G',
+    resave: false,
+    saveUninitialized: true
+}));
