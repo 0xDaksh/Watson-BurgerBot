@@ -15,7 +15,7 @@ I created this bot to learn more about burgers and IBM Watson In General and It 
 
 1. Please change `'addYourUsername'` and `'addYourPassword'` at line 15 and 16 respectively.
 
-2. Please change `'addYourWorkspaceId' at line 34.
+2. Please change `'addYourWorkspaceId'` at line 34.
 
 3. Run it using - 
       npm start
