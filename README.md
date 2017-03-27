@@ -8,7 +8,7 @@ Licensed Under MIT | (c) to Daksh Miglani (https://dak.sh | @Dakshster)
 
 I created this bot to learn more about burgers and IBM Watson In General and It turns out That I'm in love with IBM Watson!
 
-## Pre-requisites -
+## Prerequisites
 
 1. IBM Watson Access - http://u.dak.sh/zjjor
 
@@ -16,7 +16,7 @@ I created this bot to learn more about burgers and IBM Watson In General and It 
 
 3. A Trained Bot with intents of - #Thanks, #endConversation, #greeting, #deliveryTime, #customization, etc.
 
-## Using My Code - 
+## Using My Code
 
 1. Please change `'addYourUsername'` and `'addYourPassword'` at line 15 and 16 respectively.
 
